@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>dilfridge@gentoo.org</email>
-		<name>Andreas K. Hüttel</name>
+		<email>dl200010@gmail.com</email>
+		<name>Chris Dangerfield</name>
 	</maintainer>
 	<use>
 		<flag name="fuse">Enable clipboard file / device redirection via <pkg>sys-fs/fuse</pkg></flag>
