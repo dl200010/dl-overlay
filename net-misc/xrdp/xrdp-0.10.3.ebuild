@@ -42,7 +42,7 @@ src_prepare() {
 	default
 
 	# disallow root login by default
-	sed -i -e '/^AllowRootLogin/s/true/false/' sesman/sesman.ini || die
+	sed -i -e '/^AllowRootLogin/s/true/false/' sesman/sesman.ini.in || die
 }
 
 src_configure() {
