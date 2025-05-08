@@ -1,9 +1,0 @@
-
-# let's stay with the LTS kernels
->=sys-kernel/gentoo-sources-5.11
-
-# rust-bin is good enough
-dev-lang/rust
-
-# let's try to stick with udev
-sys-fs/eudev
