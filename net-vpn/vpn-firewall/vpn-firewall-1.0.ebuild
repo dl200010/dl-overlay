@@ -26,6 +26,6 @@ src_install() {
 }
 
 pkg_postinst() {
-	chown 755 /etc/init.d/vpnfirewall
-	chown 644 /etc/vpnfirewall/config
+	chmod 755 /etc/init.d/vpnfirewall
+	chmod 644 /etc/vpnfirewall/config
 }
