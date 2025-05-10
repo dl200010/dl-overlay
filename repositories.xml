@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>dl-overlay</name>
+      <description lang="en">Chris's Custom Gentoo Overlay.</description>
+        <homepage>https://github.com/dl200010/dl-overlay</homepage>
+        <owner type="person">
+            <name>Chris Dangerfield</name>
+            <email>dl200010@gmail.com</email>
+        </owner>
+        <source type="git">https://github.com/dl200010/dl-overlay.git</source>
+        <feed>https://github.com/dl200010/dl-overlay/commits/main.atom</feed>
+  </repo>
+</repositories>
