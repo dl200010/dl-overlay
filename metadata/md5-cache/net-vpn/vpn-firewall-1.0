@@ -11,4 +11,4 @@ RDEPEND=net-firewall/iptables:0= net-vpn/openvpn:0=
 SLOT=0
 SRC_URI=https://github.com/dl200010/vpn-firewall/releases/download/v1.0/vpn-firewall-1.0.tar.gz
 _eclasses_=
-_md5_=913584f02f869ee93e60973cc7201853
+_md5_=587bb7e08e4e46d42accb0fc6a0efdd5

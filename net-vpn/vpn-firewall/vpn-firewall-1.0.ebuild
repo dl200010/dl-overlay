@@ -28,4 +28,9 @@ src_install() {
 pkg_postinst() {
 	chmod 755 /etc/init.d/vpnfirewall
 	chmod 644 /etc/vpnfirewall/config
+
+	elog 'Edit /etc/vpnfirewall/config to point to your openvpn.conf file and your local IPv4 network.'
+	elog 'Edit /etc/init.d/openvpn to add "need vpnfirewall" to the end of "depend()".'
+	elog 'Use "/etc/init.d/vpnfirewall start" to start right away.'
+	elog 'Use "rc-update add vpnfirewall default" to auto start when booting up.'
 }
