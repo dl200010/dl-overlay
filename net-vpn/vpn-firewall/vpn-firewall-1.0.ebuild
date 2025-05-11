@@ -13,6 +13,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
+	sys-libs/glibc:0=
+	sys-apps/coreutils:0=
+	sys-apps/grep:0=
+	sys-apps/sed:0=
+	sys-apps/gawk:0=
 	net-firewall/iptables:0=
 	net-vpn/openvpn:0=
 "
