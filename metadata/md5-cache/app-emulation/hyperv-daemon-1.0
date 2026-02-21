@@ -1,0 +1,14 @@
+BDEPEND=
+DEFINED_PHASES=install postinst
+DESCRIPTION=An init.d script for Hyper-V Daemon in tools/hv of kernel source
+EAPI=8
+HOMEPAGE=https://github.com/dl200010/hyperv-daemon
+INHERIT=
+IUSE=
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=
+SLOT=0
+SRC_URI=https://github.com/dl200010/hyperv-daemon/releases/download/v1.0/hyperv-daemon-1.0.tar.gz
+_eclasses_=
+_md5_=e893b74aec5b2db85a10d764e6f253eb

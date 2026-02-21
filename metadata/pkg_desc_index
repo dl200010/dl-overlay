@@ -1,3 +1,4 @@
 net-misc/xorgxrdp 0.2.15 0.10.4: An open source Remote Desktop Protocol server; connector for local Xorg session
 net-misc/xrdp 0.9.23.1 0.10.1 0.10.3 0.10.4.1: An open source Remote Desktop Protocol server
 net-vpn/vpn-firewall 1.0: Leak Protection (Fail Safe Mechanism) for (Open)VPN for Gentoo
+app-emulation/hyperv-daemon 1.0: An init.d script for Hyper-V Daemon in tools/hv of kernel source
